@@ -7,7 +7,7 @@ class Farmland {
 
     String name
     int size
-    int number
+    String number
     String location
 
     static constraints = {
