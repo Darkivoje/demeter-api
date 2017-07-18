@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demeter-api.iml" filepath="$PROJECT_DIR$/.idea/modules/demeter-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demeter-api.iml" filepath="$PROJECT_DIR$/demeter-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demeter-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demeter-api_main.iml" group="demeter-api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demeter-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demeter-api_test.iml" group="demeter-api" />
     </modules>

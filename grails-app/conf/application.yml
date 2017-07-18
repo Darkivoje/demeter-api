@@ -4,7 +4,7 @@ grails:
     cors:
         enabled: true
             allowedOrigins:
-                - https://pure-stream-30641.herokuapp.com/
+                - https://demeter-api.herokuapp.com/
     codegen:
         defaultPackage: demeter.api
     spring:
