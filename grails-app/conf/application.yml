@@ -5,6 +5,8 @@ grails:
             enabled: true
             allowed-origins:
                   - https://demeter-test.000webhostapp.com/
+            allowed-methods: GET, PUT, POST, DELETE, OPTIONS
+            allowed-headers: "*"
     codegen:
         defaultPackage: demeter.api
     spring:
