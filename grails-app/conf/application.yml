@@ -2,9 +2,7 @@
 grails:
     profile: rest-api
     cors:
-        enabled: true
-            allowedOrigins:
-                - https://demeter-api.herokuapp.com/
+        allowedOrigins: https://demeter-api.herokuapp.com/
     codegen:
         defaultPackage: demeter.api
     spring:
