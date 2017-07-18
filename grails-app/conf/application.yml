@@ -2,7 +2,6 @@
 grails:
     profile: rest-api
         cors:
-            enabled: true
             allowedOrigins: http://localhost:3000
     codegen:
         defaultPackage: demeter.api
