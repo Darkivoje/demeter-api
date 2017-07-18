@@ -5,6 +5,7 @@ grails:
         enabled: true
         allowedOrigins:
             - http://localhost:3000
+            - https://demeter-test.000webhostapp.com
     codegen:
         defaultPackage: demeter.api
     spring:
