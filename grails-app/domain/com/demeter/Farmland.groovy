@@ -13,7 +13,7 @@ class Farmland {
     static constraints = {
         name nullable: false, blank: false
         size nullable: true, blank: true
-        number nullable: true, blank: true
-        location nullable: true, blank: true
+        number nullable: false, blank: false
+        location nullable: false, blank: false
     }
 }
