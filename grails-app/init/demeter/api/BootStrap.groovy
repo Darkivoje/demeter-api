@@ -17,7 +17,7 @@ class BootStrap {
         new JobType(name: 'Djubrenje').save()
         new JobType(name: 'Zalivanje').save()
 
-        new Machine(make: "John Deer", model: "1200s", vin: "1234").save()
+        new Machine(make: "John Deer", model: "1200s", vin: "1234", plates: "ZR-43380").save()
         new Machine(make: "John Deer", model: "1500rc", vin: "2234").save()
         new Farmland(name: "mirkova njiva", size: 43, number: 234554, location: "iza hetina").save()
         new Farmland(name: "Jovina zemlja", size: 98, number: 65453, location: "prema itebeju").save()
