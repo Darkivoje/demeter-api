@@ -28,7 +28,8 @@ class BootStrap {
                 responsible: Person.get(1),
                 jobType: JobType.get(2),
                 farmland: Farmland.get(1),
-                machines: [Machine.get(1)]
+                machines: [Machine.get(1), Machine.get(2)],
+                startDate: new Date()
         ).save()
 
         new Job(
@@ -36,7 +37,8 @@ class BootStrap {
                 responsible: Person.get(1),
                 jobType: JobType.get(5),
                 farmland: Farmland.get(2),
-                machines: [Machine.get(2)]
+                machines: [Machine.get(2)],
+                startDate: new Date()
         ).save()
 
     }
