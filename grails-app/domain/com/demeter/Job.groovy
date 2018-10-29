@@ -12,6 +12,7 @@ class Job {
     Farmland farmland
     Person responsible
     static hasMany = [machines: Machine]
+    List machines
 
     static mapping = {
         machines lazy: false
